@@ -1,182 +1,233 @@
-body {
-    font-family: 'Island Moments', cursive;
-    font-family: 'Poppins', sans-serif;
-}
-
-h1 {
-    font-size: 50px;
-}
-
-.h {
-    border-left: 5px solid;
-    border-image: linear-gradient(coral, orange);
-    border-image-slice: 1;
-}
-
-.second {
-    color: coral;
-}
-
-.container {
-    display: flex;
-    margin-bottom: 140px;
-}
-
-.row {
-    width: 50%;
-    padding-left: 5%;
-}
-
-.therd {
-    width: 70%;
-    padding-left: 15%;
-}
-
-button {
-    background-image: linear-gradient( coral, orange);
-    padding: 8px 20px;
-    color: white;
-    font-size: 15px;
-    border-radius: 7px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    -ms-border-radius: 7px;
-    -o-border-radius: 7px;
-}
-
-.fourth {
-    width: 50%;
-    padding-left: 30%;
-}
-
-img {
-    width: 100px;
-}
-
-.ten {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.five {
-    margin: 10px 20px;
-    background-image: linear-gradient( coral, orange);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-    border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-    -ms-border-radius: 10px 10px 10px 10px;
-    -o-border-radius: 10px 10px 10px 10px;
-}
-
-.seven {
-    margin: 10px 20px;
-    background-image: linear-gradient(brown, skyblue);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-    border-radius: 10px 10px 10px 10px;
-}
-
-.eight {
-    margin: 10px 20px;
-    background-image: linear-gradient(skyblue, purple);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-    border-radius: 10px 10px 10px 10px;
-}
-
-.twelve {
-    background-image: linear-gradient( coral, orange);
-    padding: 8px 20px;
-    color: white;
-    font-size: 15px;
-    border-radius: 7px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    -ms-border-radius: 7px;
-    -o-border-radius: 7px;
-}
-
-.thirteen {
-    padding-left: 50%;
-    width: 50%;
-    height: 50px;
-    position: absolute;
-    top: 160%;
-}
-
-.img-a {
-    width: 30%;
-    padding-left: 15%;
-}
-
-.eleven {
-    display: flex;
-    margin-bottom: 140px;
-}
-
-.sixteen {
-    padding-left: 7%;
-    width: 50%;
-    height: 50px;
-    position: absolute;
-    top: 210%;
-}
-
-.img-b {
-    width: 30%;
-    padding-left: 60%;
-}
-
-.eighteen {
-    width: 50%;
-    padding-left: 30%;
-}
-
-.nineteen {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.twenty {
-    width: 40%;
-    margin: 10px 20px;
-    background-image: linear-gradient( coral, orange);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-    border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-    -ms-border-radius: 10px 10px 10px 10px;
-    -o-border-radius: 10px 10px 10px 10px;
-}
-
-.twenty-one {
-    width: 40%;
-    margin: 10px 20px;
-    background-image: linear-gradient(skyblue, purple);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-    border-radius: 10px 10px 10px 10px;
-}
-
-span {
-    color: coral;
-}
-
-.twenty-three {
-    width: 50%;
-    padding-left: 50%;
-    font-style: italic;
-    color: white;
-}
-
-.twenty-four {
-    width: 50%;
-    padding-left: 46%;
-    color: white;
-}
-
-.twenty-two {
-    background-color: black;
-    border-radius: 10px 10px 10px 10px;
-    height: 110px;
-}
+    body {
+        font-family: 'Island Moments', cursive;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .container {
+        background-image: linear-gradient(rgb(252, 205, 213), white);
+    }
+    
+    h1 {
+        font-size: 50px;
+    }
+    
+    .h {
+        border-left: 5px solid;
+        border-image: linear-gradient(skyblue, white);
+        border-image-slice: 1;
+    }
+    
+    .second {
+        color: coral;
+    }
+    
+    .container {
+        display: flex;
+        margin-bottom: 140px;
+    }
+    
+    .container-two {
+        background-image: linear-gradient( white, rgb(204, 231, 241));
+    }
+    
+    .row {
+        width: 50%;
+        padding-left: 5%;
+    }
+    
+    .therd {
+        width: 70%;
+        padding-left: 15%;
+    }
+    
+    button {
+        background-image: linear-gradient( coral, orange);
+        padding: 8px 20px;
+        color: white;
+        font-size: 15px;
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
+    }
+    
+    .fourth {
+        width: 50%;
+        padding-left: 30%;
+    }
+    
+    img {
+        width: 100px;
+    }
+    
+    .container-three {
+        background-image: linear-gradient(white, rgb(248, 245, 245));
+    }
+    
+    .ten {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .thirty {
+        padding-left: 5%;
+    }
+    
+    .thirty-one {
+        padding-left: 5%;
+    }
+    
+    .thirty-two {
+        padding-left: 5%;
+    }
+    
+    .five {
+        margin: 10px 20px;
+        background-image: linear-gradient( coral, orange);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -ms-border-radius: 10px 10px 10px 10px;
+        -o-border-radius: 10px 10px 10px 10px;
+    }
+    
+    .seven {
+        margin: 10px 20px;
+        background-image: linear-gradient(brown, skyblue);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+    .eight {
+        margin: 10px 20px;
+        background-image: linear-gradient(skyblue, purple);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+    .twelve {
+        background-image: linear-gradient( coral, orange);
+        padding: 8px 20px;
+        color: white;
+        font-size: 15px;
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
+    }
+    
+    .thirteen {
+        padding-left: 50%;
+        width: 50%;
+        height: 50px;
+        position: absolute;
+        top: 160%;
+    }
+    
+    .img-a {
+        width: 30%;
+        padding-left: 15%;
+    }
+    
+    .eleven {
+        display: flex;
+        margin-bottom: 140px;
+    }
+    
+    .fifteen {
+        background-image: linear-gradient(white, rgb(211, 229, 236));
+    }
+    
+    .sixteen {
+        padding-left: 7%;
+        width: 50%;
+        height: 50px;
+        position: absolute;
+        top: 210%;
+    }
+    
+    .img-b {
+        width: 30%;
+        padding-left: 60%;
+    }
+    
+    .my {
+        width: 100px;
+        padding-left: 40%;
+        padding-block: 1%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+    .my-two {
+        width: 100px;
+        padding-left: 40%;
+        border-radius: 10px 10px 10px 10px;
+        padding-block: 1%;
+    }
+    
+    .eighteen {
+        width: 50%;
+        padding-left: 30%;
+    }
+    
+    .nineteen {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-image: linear-gradient(white, rgb(247, 222, 226));
+    }
+    
+    .twenty {
+        width: 40%;
+        margin: 10px 20px;
+        background-image: linear-gradient( coral, orange);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -ms-border-radius: 10px 10px 10px 10px;
+        -o-border-radius: 10px 10px 10px 10px;
+    }
+    
+    .twenty-one {
+        width: 40%;
+        margin: 10px 20px;
+        background-image: linear-gradient(skyblue, purple);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+    span {
+        color: coral;
+    }
+    
+    .twenty-three {
+        width: 50%;
+        padding-left: 50%;
+        font-style: italic;
+        color: white;
+    }
+    
+    .twenty-four {
+        width: 50%;
+        padding-left: 46%;
+        color: white;
+    }
+    
+    .container-five {
+        background-color: black;
+        border-radius: 10px 10px 10px 10px;
+        height: 110px;
+    }
+    
+    .twenty-seven {
+        padding-left: 10%;
+    }
+    
+    .twenty-eight {
+        padding-left: 5%;
+    }
